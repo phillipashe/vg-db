@@ -1,0 +1,25 @@
+.filters {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+::ng-deep {
+  .mat-form-field-infix {
+    background-color: white;
+  }
+
+  .mat-select-trigger,
+  .mat-select-arrow-wrapper {
+    margin-right: 5px;
+  }
+
+  mat-select {
+    margin-left: 5px;
+  }
+
+  mat-label {
+    margin-left: 5px;
+    color: grey;
+  }
+}
