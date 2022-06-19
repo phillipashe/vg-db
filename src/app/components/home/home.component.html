@@ -1,17 +1,28 @@
 <div class="filters">
   <mat-form-field>
     <mat-label>Sort</mat-label>
-    <mat-select
-      panelClass="sort-select"
-      [(ngModel)]="sort"
-    >
-    <mat-option value="name">Name</mat-option>
-    <mat-option value="-released">Released</mat-option>
-    <mat-option value="-added">Added</mat-option>
-    <mat-option value="-created">Created</mat-option>
-    <mat-option value="-updated">Updated</mat-option>
-    <mat-option value="-rating">Rating</mat-option>
-    <mat-option value="-metacritic">Metacritic</mat-option>
+    <mat-select panelClass="sort-select" [(ngModel)]="sort">
+      <mat-option value="name">Name</mat-option>
+      <mat-option value="-released">Released</mat-option>
+      <mat-option value="-added">Added</mat-option>
+      <mat-option value="-created">Created</mat-option>
+      <mat-option value="-updated">Updated</mat-option>
+      <mat-option value="-rating">Rating</mat-option>
+      <mat-option value="-metacritic">Metacritic</mat-option>
     </mat-select>
   </mat-form-field>
+</div>
+
+<div class="games">
+  <div class="game">
+    <div class="game-thumb-container">
+      <img class="game-thumbnail" src="https://www.mobygames.com/images/covers/large/1191527200-00.jpg" alt="thumbnail">
+    </div>
+    <div class="game-description">
+      <p class="game-name">Name</p>
+      <div class="game-platforms">
+        <img class="game-platform" src="https://download.logo.wine/logo/Xbox_360/Xbox_360-Logo.wine.png" alt="slug">
+      </div>
+    </div>
+  </div>
 </div>
